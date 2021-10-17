@@ -209,6 +209,9 @@ canvas {
 }
 
 .title::selection,
-.description::selection {
+.description::selection,
+.title:hover,
+.description:hover {
+  cursor: default;
   background: #3f0483;
 }
