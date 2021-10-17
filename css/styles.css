@@ -195,7 +195,7 @@ canvas {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .title {
@@ -206,4 +206,9 @@ canvas {
 .description {
   color: #fff;
   font-size: 2em;
+}
+
+.title::selection,
+.description::selection {
+  background: #3f0483;
 }
